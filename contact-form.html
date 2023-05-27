@@ -3,12 +3,30 @@
         <link rel="stylesheet" href="contactstyle.css">
         <title>Contact Form</title>
     </head>
-
     <body class="contact-jot">
-        <header class="header">
-        <a href="index.html" class="logo_b">Back Home</a>
-    </header>
-<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-913f5a02-f259-49c4-a96a-d3347595aa21"></div>
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            <form action="https://formsubmit.co/3ch0xd@gmail.com" method="post">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Your Name" name="name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Adress" name="email" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="textarea-field">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                    <span class="focus"></span>
+                </div>
+                <input type="hidden" name="_captcha" value="false">
+
+                <div class="btn-box"> 
+                    <button type="submit" class="btn1">Submit</button>
+                </div>
+            </div>
+        </form>
+        </section>
     </body>
 </html>
