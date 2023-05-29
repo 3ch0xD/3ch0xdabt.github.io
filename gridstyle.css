@@ -19,6 +19,13 @@ body {
   background: #071d2c;
 }
 
+.heading{
+  position:absolute;
+  top:0;
+  z-index: -1;
+  
+}
+
 h2{
   font-size: 5rem;
 }
@@ -117,5 +124,22 @@ span{
 .card:hover .character {
   opacity: 1;
   transform: translate3d(0%, -30%, 100px);
+}
+
+.small-notes a{
+  position: absolute;
+  font-size: 15px;
+  bottom: 3px;
+  left:41%;
+  text-decoration: none;
+  transition: .6s;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.small-notes a:hover{
+  color: #00abf0;
+  transition: .6s;
+  text-shadow: 10px 10px rgb(000, 000, 000, 0.9);
 }
 
